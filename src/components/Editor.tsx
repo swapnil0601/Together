@@ -6,7 +6,6 @@ import { usePathname, useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import TextareaAutosize from "react-textarea-autosize";
-import { z } from "zod";
 
 import { toast } from "@/hooks/use-toast";
 import { uploadFiles } from "@/lib/uploadthing";
